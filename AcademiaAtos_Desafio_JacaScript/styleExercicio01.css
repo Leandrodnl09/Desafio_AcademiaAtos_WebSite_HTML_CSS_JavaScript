@@ -1,0 +1,30 @@
+.exercicio01 {
+    text-align: center;
+  }
+
+  button {
+    text-align: center;
+    font-size: 16px;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  #vermelho {
+    background-color: red;
+  }
+  
+  #verde {
+    background-color: green;
+  }
+  
+  #azul {
+    background-color: blue;
+  }
+  
+  #amarelo {
+    background-color: yellow;
+  }

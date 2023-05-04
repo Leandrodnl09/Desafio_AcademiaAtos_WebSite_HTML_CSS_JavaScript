@@ -1,0 +1,82 @@
+.select {
+  max-width: 500px;
+  margin: 0 auto;
+  background-color: #35424a;
+  border-radius: 20px; /* adiciona bordas arredondadas */
+  border: 8px solid #35424a; /* adiciona uma borda preta */
+  padding: 20px; /* adiciona espaço interno */
+  width: 30%; /* define a largura do contêiner */
+  margin: 0 auto; /* centraliza o contêiner */
+  box-sizing: border-box;
+  backdrop-filter: blur(5px);
+  box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.75);
+}
+
+.color-selection {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 2rem;
+}
+
+.color-selection label {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.color-selection input[type="checkbox"] {
+  margin-right: 0.5rem;
+}
+
+.color-selection input[type="checkbox"]:checked + span {
+  background-color: blue;
+}
+
+#submit-btn {
+  margin-top: 2rem;
+  background-color: grey;
+  color: white;
+  border: 2px;
+  padding: 0.5rem 1rem;
+  cursor: not-allowed;
+}
+
+#submit-btn.enabled {
+  cursor: pointer;
+  background-color: blue;
+}
+
+.windows-xp-btn {
+  height: 30px;
+  padding: 0 20px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #fff;
+  text-shadow: 0 1px 0 #000;
+  background-color: #4d4d4d;
+  border: 1px solid #4d4d4d;
+  border-radius: 4px;
+  box-shadow: inset 0 1px 0 #777, 0 2px 2px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+
+label input[value="verde"] + span{
+  color: green;
+}
+
+label input[value="vermelho"] + span {
+  color: red;
+}
+
+label input[value="azul"] + span {
+  color: blue;
+}
+
+label input[value="amarelo"] + span {
+  color: yellow;
+}
+
+legend{
+  color: white;
+}

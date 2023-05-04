@@ -1,0 +1,55 @@
+  .exercicio02 {
+    text-align: center;
+  }
+
+ .exercicio02 a {
+    display: inline-block;
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+    font-size: 40px;
+  }
+  
+  #vermelho:hover {
+    background-color: red;
+    color: red;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 1.0);
+    transition: text-shadow 1.0s ease-in-out;
+  }
+  
+  #verde:hover {
+    background-color: green;
+    color: green;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 1.0);
+    transition: text-shadow 1.0s ease-in-out;
+  }
+  
+  #azul:hover {
+    background-color: blue;
+    color: blue;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 1.0);
+    transition: text-shadow 1.0s ease-in-out;
+ }
+  
+  #amarelo:hover {
+    background-color: yellow;
+    color: yellow;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 1.0);
+    transition: text-shadow 1.0s ease-in-out;
+  }
+
+  #vermelho{
+    color: red;
+  }
+  
+  #verde {
+    color: green;
+  }
+  
+  #amarelo {
+    color: yellow;
+  }
+
+  #azul{
+    color: blue;
+  }

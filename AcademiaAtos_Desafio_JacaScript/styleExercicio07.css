@@ -1,0 +1,30 @@
+#conteudo {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: white;
+  color: black;
+}
+
+#botoes {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  background-color: #6b6e72;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-right: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  
+}
+
+button:hover {
+  background-color: #797d81;
+}

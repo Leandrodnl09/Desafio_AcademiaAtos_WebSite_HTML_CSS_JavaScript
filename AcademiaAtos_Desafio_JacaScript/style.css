@@ -1,0 +1,206 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+    background-color: #f4f4f4;
+  }
+
+  /*Cabeçalho*/
+  .highlight {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    -webkit-text-stroke: 0.5px rgb(255, 255, 255);
+  }
+  
+  /* Global */
+  .container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+  }
+  
+  ul{
+    margin: 0;
+    padding: 0;
+  }
+  
+  .button_1{
+    height: 38px;
+    background: rgb(56, 118, 189);
+    border:0;
+    padding: 0 20px 0 20px ;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .dark{
+    padding: 15px;
+    background: #c17e03;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }  
+
+@media (max-width: 768px) {
+    .gallery-row img {
+    width: calc(50% - 10px); /* duas imagens por linha em dispositivos menores */
+    }
+  }
+  
+  /* Header */
+  header{
+    background-color: #35424a;
+    color: #ffffff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: rgb(56, 118, 189) 3px solid;
+  }
+  
+  header a{
+    color: #ffffff;
+     text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+  }
+  
+  header li{
+    float: left;
+    display:inline;
+    padding: 0 20px 0 20px;
+  }
+  
+  header #branding{
+    float: left;
+  }
+  
+  header #branding h1{
+    margin: 0;
+  }
+  
+  header nav{
+    float: right;
+    margin-top: 10px;
+  }
+  
+  header .highlight, header .current a{
+    color: rgb(56, 118, 189);
+    font-weight: bold;
+  }
+  
+  header a:hover{
+    color: #cccccc;
+    font-weight: bold;
+  }
+  
+  /* Showcase */
+  #showcase::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(./images/showcase.jpg) no-repeat 0 -400px;
+    filter: blur(5px); /* aplica o efeito de desfoque na imagem de fundo */
+    z-index: -1; /* posiciona o pseudo-elemento atrás da div #showcase */
+  }
+  #showcase {
+    min-height: 400px;
+    text-align: center;
+    color: white;
+    position: relative; /* define a posição da div #showcase como relativa */
+  }
+  
+  #showcase h1{
+    margin-top: 50px;
+    font-size: 55px;
+    margin-bottom: 10px;
+    -webkit-text-stroke: 2px black;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1.5);
+  }
+  
+  #showcase p{
+    font-size: 20px;
+    text-align: justify;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1.5);
+  }
+  
+  /* NEWSLETTER */
+  #newsletter{
+    padding: 15px;
+    color: white;
+    background-color: #35424a;
+  
+  }
+  
+  #newsletter h1{
+    float: left;
+  }
+  
+  #newsletter form{
+    float: right;
+    margin-top: 15px;
+  }
+  
+  #newsletter input[type="email"]{
+    padding: 4px;
+    height: 25px;
+    width: 250px;
+  }
+  
+  /* Boxes */
+  #boxes{
+    margin-top: 20px;
+  }
+  
+  #boxes .box{
+    float:left;
+    text-align: center;
+    width: 30%;
+    padding: 10px;
+  }
+  
+  #boxes .box img{
+    width: 90px;
+  }
+  
+  /*maincol*/
+  article#main-col{
+    float: left;
+    width: 65%;
+    text-align: center;
+  }
+  
+  /* sidebar */
+  aside#sidebar{
+    float:right;
+    width: 30%;
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  aside#sidebar .quote input, aside#sidebar .quote textarea{
+    width: 90%;
+    padding: 5px;
+  }
+  
+  /* Services */
+  ul#services li{
+    list-style: none;
+    padding: 20px;
+    border: #ccc solid 1px;
+    margin-bottom: 5px;
+    background: #e6e6e6;
+  }
+  
+  /* fotter */
+  footer{
+    padding: 20px;
+    margin-top: 20px;
+    color: white;
+    background-color: rgb(56, 118, 189);
+    text-align: center;
+  }

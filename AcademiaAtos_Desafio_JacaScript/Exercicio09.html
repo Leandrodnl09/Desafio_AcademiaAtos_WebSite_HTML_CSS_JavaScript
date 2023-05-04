@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset='utf-8'>
+  <meta name="viewport" content="width-device-width">
+  <meta name="author" content="Leandro Di Nardo Lazarin">
+  <title>Exercício #09# || HTML-CSS-JavaScript</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="styleExercicio09.css">
+</head>
+<body>
+  <header>
+      <div class="container">
+       <div id='branding'>
+         <h1> <span class="highlight">Exercícios</span></h1>
+      </div>
+       <nav>
+         <ul>
+           <li class="current"><a href="index.html">HOME</a></li>
+           <li><a href="Exercicio01.html">#01#</01></a></li>
+           <li><a href="Exercicio02.html">#02#</a></li>
+           <li><a href="Exercicio03.html">#03#</a></li>
+           <li><a href="Exercicio04.html">#04#</a></li>
+           <li><a href="Exercicio05.html">#05#</a></li>
+           <li><a href="Exercicio06.html">#06#</a></li>
+           <li><a href="Exercicio07.html">#07#</a></li>
+           <li><a href="Exercicio08.html">#08#</a></li>
+           <li><a href="Exercicio09.html">#09#</a></li>
+           <li><a href="Exercicio10.html">#10#</a></li>
+         </ul>
+       </nav> 
+      </div>
+  </header>
+
+  <section id="showcase">
+    <div class="container">
+      <h1>Exercício #09#</h1>
+      <p>Crie um formulário com os campos para cadastrar o usuário de um sistema (login, senha e confirmar senha). Permita que a página seja submetida apenas se todos os campos estiverem preenchidos, se os campos senha e confirma senha forem iguais e a senha possuir entre 6 e 10 caracteres.</p>
+    </div>
+  </section>
+  <br><br>
+  
+  <div class="cadastro">
+  <h1 id="cadastro">Cadastro de Usuário</h1>
+	<form onsubmit="return validateForm()" method="post">
+		<label for="login">Login:</label>
+		<input type="text" id="login" name="login" required><br><br>
+		<label for="password">Senha:</label>
+		<input type="password" id="password" name="password" required><br><br>
+		<label for="confirm_password">Confirmar Senha:</label>
+		<input type="password" id="confirm_password" name="confirm_password" required><br><br>
+		<input type="submit" value="Cadastrar">
+    <input type="reset" value="Limpar tudo">
+	</form>
+  <script src="exercicio09.js"></script>
+  </div>
+
+  <section id="boxes">
+    <div class="container">
+      <div class="box">
+        <img src=".\images\logo_html.png">
+        <h3>HTML</h3>
+    </div>
+
+      <div class="box">
+        <img src=".\images\logo_brush.png">
+        <h3>JavaScript</h3>
+      </div>
+
+      <div class="box">
+        <img src=".\images\logo_css.png">
+        <h3>CSS</h3>
+      </div>      
+    </div>
+  </section>
+
+  <footer>
+    <p>Site de serviços, copyright &copy; Leandro Di Nardo Lazarin</p>
+  </footer>
+
+</body>
+</html>

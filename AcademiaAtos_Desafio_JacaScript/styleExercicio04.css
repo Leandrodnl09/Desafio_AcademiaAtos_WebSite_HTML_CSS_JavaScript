@@ -1,0 +1,16 @@
+#conteudo {
+    text-align: center;
+    
+  }
+
+  #texto-container {
+    height: 50px;
+  }
+
+  button {
+    font-size: 20px;
+  }
+
+  .conteudo p {
+    font-size: 18px;
+  }

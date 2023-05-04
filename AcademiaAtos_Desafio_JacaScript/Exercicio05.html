@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset='utf-8'>
+  <meta name="viewport" content="width-device-width">
+  <meta name="author" content="Leandro Di Nardo Lazarin">
+  <title>Exercício #05# || HTML-CSS-JavaScript</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="styleExercicio05.css">
+</head>
+<body>
+  <header>
+      <div class="container">
+       <div id='branding'>
+         <h1> <span class="highlight">Exercícios</span></h1>
+      </div>
+       <nav>
+         <ul>
+           <li class="current"><a href="index.html">HOME</a></li>
+           <li><a href="Exercicio01.html">#01#</01></a></li>
+           <li><a href="Exercicio02.html">#02#</a></li>
+           <li><a href="Exercicio03.html">#03#</a></li>
+           <li><a href="Exercicio04.html">#04#</a></li>
+           <li><a href="Exercicio05.html">#05#</a></li>
+           <li><a href="Exercicio06.html">#06#</a></li>
+           <li><a href="Exercicio07.html">#07#</a></li>
+           <li><a href="Exercicio08.html">#08#</a></li>
+           <li><a href="Exercicio09.html">#09#</a></li>
+           <li><a href="Exercicio10.html">#10#</a></li>
+         </ul>
+       </nav> 
+      </div>
+  </header>
+
+  <section id="showcase">
+    <div class="container">
+      <h1>Exercício #05#</h1>
+      <p>Crie um formulário de seleção de itens com checkbox. O formulário deve possuir um botão desabilitado. O botão só se torna clicável quando tiver pelo menos 2 checkboxs marcado.</p>
+    </div>
+  </section>
+  <br><br><br>
+  <div class="select">
+  <form>
+    <fieldset>
+      <legend>Selecione as cores:</legend>
+      <label><input type="checkbox" name="cor" value="vermelho"> <span>Vermelho</span></label><br>
+      <label><input type="checkbox" name="cor" value="verde"> <span>Verde</span></label><br>
+      <label><input type="checkbox" name="cor" value="azul"> <span>Azul</span></label><br>
+      <label><input type="checkbox" name="cor" value="amarelo"> <span>Amarelo</span></label><br>
+    </fieldset>
+    <button type="submit" id="botaoEnviar" disabled class="windows-xp-btn">Enviar</button>
+    
+    <script src="exercicio05.js"></script>
+  </form>
+</div>
+  <br><br>
+
+  <section id="boxes">
+    <div class="container">
+      <div class="box">
+        <img src=".\images\logo_html.png">
+        <h3>HTML</h3>
+    </div>
+
+      <div class="box">
+        <img src=".\images\logo_brush.png">
+        <h3>JavaScript</h3>
+      </div>
+
+      <div class="box">
+        <img src=".\images\logo_css.png">
+        <h3>CSS</h3>
+      </div>      
+    </div>
+  </section>
+
+  <footer>
+    <p>Site de serviços, copyright &copy; Leandro Di Nardo Lazarin</p>
+  </footer>
+
+</body>
+</html>

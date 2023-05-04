@@ -1,0 +1,53 @@
+body {
+  background-color: white;
+}
+
+.exercicio03 {
+  background-color: #35424a;
+  border-radius: 20px; /* adiciona bordas arredondadas */
+  border: 8px solid #35424a; /* adiciona uma borda preta */
+  padding: 20px; /* adiciona espaço interno */
+  width: 30%; /* define a largura do contêiner */
+  margin: 0 auto; /* centraliza o contêiner */
+  box-sizing: border-box;
+  backdrop-filter: blur(5px);
+  box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.75);
+}
+
+.exercicio03 p{
+  text-align: center;
+  font-size: 30px;
+  color: white;
+}
+.exercicio03 label{
+  font-size: 20px;
+  color: white;
+}
+
+.exercicio03 h1 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+  font-size: 50px;
+  color: white;
+}
+
+form {
+  margin: 0 auto;
+  width: 200px;
+}
+
+label input[value="green"] + span {
+  color: green;
+}
+
+label input[value="red"] + span {
+  color: red;
+}
+
+label input[value="blue"] + span {
+  color: blue;
+}
+
+label input[value="yellow"] + span {
+  color: yellow;
+}
